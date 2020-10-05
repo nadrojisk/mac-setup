@@ -30,9 +30,6 @@ mas install 417602904
 # Slack
 brew cask install slack
 
-# Wunderlist
-mas install 410628904
-
 # Notes & related
 brew cask install evernote
 brew cask install skitch
@@ -40,6 +37,9 @@ mas install 1091189122 #Bear
 
 # Amphetamine
 mas install 937984704
+
+# Bartender
+brew cask install bartender
 
 # Magnet
 mas install 441258766
@@ -60,13 +60,11 @@ brew cask install firefox
 # Authy
 brew cask install authy
 
-# Bartender
-brew cask install bartender
-
 # Calibre
 brew cask install calibre
 
-# Dropbox
+# Personal cloud storage
+brew cask install amazon-photos
 brew cask install dropbox
 
 # Gimp
@@ -102,7 +100,8 @@ brew cask install skype
 brew cask install skype-for-business
 brew cask install zoomus
 
-# Whatsapp
+# Messaging
+brew cask install telegram
 brew cask install whatsapp
 ```
 
@@ -110,24 +109,28 @@ brew cask install whatsapp
 
 ```bash
 # A good terminal
-brew install tree
-brew install wget
 brew cask install iterm2
 brew install jq
 brew install zsh zsh-completions zsh-syntax-highlighting zsh-autosuggestions
 # And definitely check plugins, templates, themes, etc. at:
 # https://github.com/robbyrussell/oh-my-zsh
+brew install tree
+brew install wget
+brew install tldr
 brew install thefuck
 
+# Go2Shell
+brew cask install go2shell
+
 # Shuttle
-brew cask install shuttle
+brew cask install shuttle 
 
 # AWS CLI
 brew install awscli
 
 # API development
-brew cask install postman
 brew cask install paw
+brew cask install postman
 
 # Text editors/IDEs
 brew cask install textmate
@@ -136,8 +139,11 @@ brew cask install brackets
 brew cask install atom
 brew cask install visual-studio-code
 
-# Charles
+# Charles proxy
 brew cask install charles
+
+# Dash
+brew cask install dash
 
 # Docker
 brew cask install docker
@@ -152,7 +158,10 @@ brew cask install gas-mask
 # Git-related
 brew cask install rowanj-gitx
 brew cask install sourcetree
-brew cask instal kdiff3
+brew cask install tower
+
+# Gradle
+brew install gradle
 
 # GoLang
 brew install go
@@ -163,16 +172,17 @@ brew cask install ngrok
 # Python
 brew install python
 brew install python3
+brew cask install anaconda
 
 # DevOps
 brew cask install vagrant
 brew cask install virtualbox
 brew install packer
 brew install terraform
+brew install vault
 
 # Cloud storage and related
 brew cask install cyberduck
-#brew cask install filezilla # Seems they're evil lately, do NOT install anymore.
 
 # JetBrains
 brew cask install phpstorm
@@ -186,7 +196,7 @@ brew install composer
 # Databases
 brew cask install sequel-pro
 
-# VPS
+# VPN
 brew cask install tunnelblick
 
 # Xcode. Will take forever to download, yes. Not needed by everyone.
